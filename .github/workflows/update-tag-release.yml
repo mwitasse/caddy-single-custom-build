@@ -12,14 +12,8 @@ on:
 # Environment variables available to all jobs and steps in this workflow
 env:
   CADDY_BUILDS: |  # list of all Caddy Docker custom builds
-    caddy-cloudflare-ddns-crowdsec-geoip-security-dockerproxy
-    caddy-duckdns
-    caddy-duckdns-crowdsec
-    caddy-duckdns-ddns-crowdsec-geoip-security
-    caddy-netcup
-    caddy-netcup-ddns
-    caddy-porkbun-dockerproxy
-    caddy-ratelimit-dockerproxy-sablier
+    caddy-cloudflare
+    caddy-netcup-duckdns
 
 # Jobs to run once the workflow is triggered
 jobs:
