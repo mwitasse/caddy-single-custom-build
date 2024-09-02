@@ -7,12 +7,11 @@ on:
   push:
     branches: main
     paths:
-      - caddy-cloudflare/Dockerfile  # file updated by Dependabot used as reference
+      - caddy-netcup-duckdns/Dockerfile  # file updated by Dependabot used as reference
 
 # Environment variables available to all jobs and steps in this workflow
 env:
   CADDY_BUILDS: |  # list of all Caddy Docker custom builds
-    caddy-cloudflare
     caddy-netcup-duckdns
 
 # Jobs to run once the workflow is triggered
