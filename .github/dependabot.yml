@@ -6,11 +6,11 @@ updates:
     schedule:
       interval: "weekly"
     assignees:
-      - "serfriz"
+      - "mwitasse"
   # Check for Docker image updates
   - package-ecosystem: "docker"
-    directory: "/caddy-cloudflare"
+    directory: "/caddy-netcup-duckdns"
     schedule:
       interval: "daily"
     assignees:
-      - "serfriz"
+      - "mwitasse"
