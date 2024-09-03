@@ -46,8 +46,6 @@ jobs:
         with:
           images: |
             docker.io/${{ github.actor }}/${{ env.DOCKER_NAME }}
-            ghcr.io/${{ github.actor }}/${{ env.DOCKER_NAME }}
-            quay.io/${{ github.actor }}/${{ env.DOCKER_NAME }}
           tags: |
             type=semver,pattern={{version}},value=v${{ steps.version.outputs.version }}
             type=semver,pattern={{major}}.{{minor}},value=v${{ steps.version.outputs.version }}
