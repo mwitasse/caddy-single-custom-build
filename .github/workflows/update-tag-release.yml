@@ -13,6 +13,8 @@ on:
 env:
   CADDY_BUILDS: |  # list of all Caddy Docker custom builds
     caddy-netcup-duckdns
+  GPG_TTY:  # otherwise error "gpg: signing failed: Inappropriate ioctl for device"
+    $(tty)
 
 # Jobs to run once the workflow is triggered
 jobs:
