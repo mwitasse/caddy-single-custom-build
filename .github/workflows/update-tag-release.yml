@@ -7,12 +7,13 @@ on:
   push:
     branches: main
     paths:
-      - caddy-netcup-duckdns/Dockerfile  # file updated by Dependabot used as reference
+      - caddy-netcup-duckdns-ddns-ratelimit-dockerproxy/Dockerfile  # file updated by Dependabot used as reference
 
 # Environment variables available to all jobs and steps in this workflow
 env:
   CADDY_BUILDS: |  # list of all Caddy Docker custom builds
     caddy-netcup-duckdns
+    caddy-netcup-duckdns-ddns-ratelimit-dockerproxy
   GPG_TTY:  # otherwise error "gpg: signing failed: Inappropriate ioctl for device"
     $(tty)
 
@@ -34,7 +35,7 @@ jobs:
 
       - name: Parse Caddy version
         id: version
-        run: echo "version=$(grep -Eo 'caddy:[0-9]+\.[0-9]+\.[0-9]+$' caddy-cloudflare/Dockerfile | cut -d ':' -f2)" | tee -a $GITHUB_OUTPUT
+        run: echo "version=$(grep -Eo 'caddy:[0-9]+\.[0-9]+\.[0-9]+$' caddy-netcup-duckdns-ddns-ratelimit-dockerproxy/Dockerfile | cut -d ':' -f2)" | tee -a $GITHUB_OUTPUT
   
   # Job to update the Caddy version in all Dockerfiles and create a tag
   update:
