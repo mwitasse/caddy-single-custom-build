@@ -15,7 +15,6 @@ If you are looking for a specific custom build not available yet in this reposit
 
 ### Caddy Images:
 
-- [**caddy-netcup-duckdns**](https://github.com/mwitasse/caddy-custom-builds/tree/main/caddy-netcup-duckdns): includes Netcup and DuckDNS Dynamic DNS module.
 - [**caddy-netcup-duckdns-ddns-ratelimit-dockerproxy**](https://github.com/mwitasse/caddy-custom-builds/tree/main/caddy-netcup-duckdns-ddns-ratelimit-dockerproxy): includes Netcup, DuckDNS, Dynamic DNS, Rate Limit, Docker Proxy module.
 
 ### Modules:
@@ -32,7 +31,6 @@ Since all images from this repository are built off the official Caddy Docker im
 Docker builds for all Caddy supported platforms are available at the following container registries:
 - **Docker Hub** > `docker pull mwitasse/<caddy-build-name>:latest`
 - **GitHub Packages** > `docker pull ghcr.io/mwitasse/<caddy-build-name>:latest`
-- **Quay** > `docker pull quay.io/mwitasse/<caddy-build-name>:latest`
 
 To pull a specific build, replace `<caddy-build-name>` with the desired one. For example, to pull the `caddy-cloudflare` build from Docker Hub, use `docker pull mwitasse/caddy-cloudflare:latest`.
 

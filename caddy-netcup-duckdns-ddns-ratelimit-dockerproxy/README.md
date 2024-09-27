@@ -2,7 +2,6 @@
 
 [![Docker Hub](https://img.shields.io/badge/Docker%20Hub%20-%20mwitasse%2Fcaddy--netcup--duckdns--ddns--ratelimit--dockerproxy%20-%20%230db7ed?style=flat&logo=docker)](https://hub.docker.com/r/mwitasse/caddy-netcup-duckdns-ddns-ratelimit-dockerproxy)
 [![GitHub](https://img.shields.io/badge/GitHub%20-%20mwitasse%2Fcaddy--netcup--duckdns--ddns--ratelimit--dockerproxy%20-%20%23333?style=flat&logo=github)](https://ghcr.io/mwitasse/caddy-netcup-duckdns-ddns-ratelimit-dockerproxy)
-[![Quay](https://img.shields.io/badge/Quay%20-%20mwitasse%2Fcaddy--netcup--duckdns--ddns--ratelimit--dockerproxy%20-%20%23CC0000?style=flat&logo=redhat)](https://quay.io/mwitasse/caddy-netcup-duckdns-ddns-ratelimit-dockerproxy)
 
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/mwitasse/caddy-custom-builds?label=Release)](https://github.com/mwitasse/caddy-custom-builds/releases)
 [![GitHub build status](https://img.shields.io/github/actions/workflow/status/mwitasse/caddy-custom-builds/build.caddy-netcup-duckdns-ddns-ratelimit-dockerproxy.yml?label=Build)](https://github.com/mwitasse/caddy-custom-builds/actions/workflows/build.caddy-netcup-duckdns-ddns-ratelimit-dockerproxy.yml)
@@ -21,7 +20,6 @@ Since this image built off the official Caddy Docker image, the same [volumes](h
 Docker builds for all Caddy supported platforms available at the following container registries:
 - [**Docker Hub**](https://hub.docker.com/r/mwitasse/caddy-netcup-duckdns-ddns-ratelimit-dockerproxy) `docker pull mwitasse/netcup-duckdns-ddns-ratelimit-dockerproxy:latest`
 - [**GitHub Packages**](https://ghcr.io/mwitasse/caddy-netcup-duckdns-ddns-ratelimit-dockerproxy) `docker pull ghcr.io/mwitasse/netcup-duckdns-ddns-ratelimit-dockerproxy:latest`
-- [**Quay**](https://quay.io/mwitasse/caddy-netcup-duckdns-ddns-ratelimit-dockerproxy) `docker pull quay.io/mwitasse/netcup-duckdns-ddns-ratelimit-dockerproxy:latest`
 
 ### Tags
 
