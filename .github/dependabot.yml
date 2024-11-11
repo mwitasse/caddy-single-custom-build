@@ -9,7 +9,7 @@ updates:
       - "mwitasse"
   # Check for Docker image updates
   - package-ecosystem: "docker"
-    directory: "/caddy-netcup-duckdns"
+    directory: "/caddy-netcup-duckdns-ddns-ratelimit-dockerproxy"
     schedule:
       interval: "daily"
     assignees:
